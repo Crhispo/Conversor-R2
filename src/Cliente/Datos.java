@@ -5,32 +5,35 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
 
+// Clase Json que facilita leer el archivo config.json
+
 class Json {
 
-    private String apiKey;
+	private String apiKey;
 
-    public String getApiKey() {
-        return apiKey;
-    }
+	public String getApiKey() {
+		return apiKey;
+	}
 
-    public void setApiKey(String apiKey) {
-        this.apiKey = apiKey;
-    }
+	public void setApiKey(String apiKey) {
+		this.apiKey = apiKey;
+	}
 
 }
 
 public class Datos {
 
-    // Lee el archivo config.json desde el classpath
-    static InputStream inputStream = Datos.class.getResourceAsStream("/config.json");
-    static Reader reader = new InputStreamReader(inputStream);
-    static Gson gson = new Gson();
+	// Lee el archivo config.json desde el src el cual contiene la Api Key
 
-    static Json apiKey = gson.fromJson(reader, Json.class);
+	static InputStream inputStream = Datos.class.getResourceAsStream("/config.json");
+	static Reader reader = new InputStreamReader(inputStream);
+	static Gson gson = new Gson();
 
-    public static String getApiKey() {
+	static Json apiKey = gson.fromJson(reader, Json.class);
 
-        return apiKey.getApiKey();
-    }
+	public static String getApiKey() {
+
+		return apiKey.getApiKey();
+	}
 
 }
