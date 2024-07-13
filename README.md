@@ -10,12 +10,13 @@ El objetivo principal del Conversor de Monedas es proporcionarte una herramienta
 ## Funcionamiento
 1. **Menú Interactivo:**
    - Al ejecutar el aplicativo, se mostrará un menú con las siguientes opciones:
-     1. **Dólares a Pesos argentinos**
-     2. **Pesos argentinos a Dólares**
-     3. **Dólares a Real brasileño**
-     4. **Real brasileño a Dólares**
-     5. **Dólares a Pesos Colombianos**
-     6. **Salir**
+     1- **Dólares a Pesos argentinos**
+     2- **Pesos argentinos a Dólares**
+     3- **Dólares a Real brasileño**
+     4- **Real brasileño a Dólares**
+     5- **Dólares a Pesos Colombianos**
+     6- **Pesos Colombianos a Dólares**
+     7- **Salir**
    - Elige la opción que corresponda a la conversión que deseas realizar.
 
 2. **Ingreso del Valor:**
