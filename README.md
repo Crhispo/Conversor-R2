@@ -14,11 +14,17 @@ El objetivo principal del Conversor de Monedas es proporcionarte una herramienta
      1- **Dólares a Pesos argentinos**
      
      2- **Pesos argentinos a Dólares**
+
      3- **Dólares a Real brasileño**
+     
      4- **Real brasileño a Dólares**
+     
      5- **Dólares a Pesos Colombianos**
+     
      6- **Pesos Colombianos a Dólares**
+     
      7- **Salir**
+     
    - Elige la opción que corresponda a la conversión que deseas realizar.
 
 3. **Ingreso del Valor:**
